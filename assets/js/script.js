@@ -125,7 +125,7 @@ var completeEditTask = function(taskName, taskType, taskId) {
     alert("Task Updated!");
 
     formEl.removeAttribute("data-task-id");
-    document.querySelector("#save-task").textConent = "Add Task";
+    document.querySelector("#save-task").textContent = "Add Task";
 };
 
 var taskButtonHandler = function(event) {
